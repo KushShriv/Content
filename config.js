@@ -2,6 +2,7 @@
 window.PROFILE = {
   name: "Kushaagra Shrivastava",
   tagline: "Placeholder",
+  banner: "banner.png",
   avatar: "DP.png",
   links: [
     { label: "Instagram", url: "https://instagram.com/KushShriv",               icon: "instagram" },
