@@ -20,6 +20,8 @@ document.title = P.name;
 document.getElementById("name").textContent = P.name;
 document.getElementById("tagline").textContent = P.tagline;
 
+if (P.banner) document.getElementById("banner").style.backgroundImage = `url("${encodeURI(P.banner)}")`;
+
 const av = document.getElementById("avatar");
 if (P.avatar) av.innerHTML = `<img src="${encodeURI(P.avatar)}" alt="">`;
 else av.textContent = P.name.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
