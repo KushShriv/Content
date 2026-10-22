@@ -14,6 +14,8 @@ window.PROFILE = {
     { label: "Pinterest", url: "https://pinterest.com/yourhandle",        icon: "pinterest" },
     { label: "Facebook",  url: "https://facebook.com/yourhandle",         icon: "facebook" },
     { label: "Threads",   url: "https://threads.net/@yourhandle",         icon: "threads" },
+    { label: "Discord",   url: "https://discord.gg/yourinvite",           icon: "discord" },
+    { label: "Reddit",    url: "https://reddit.com/user/yourhandle",      icon: "reddit" },
     { label: "Other",     url: "https://example.com",                     icon: "link" }
   ]
 };

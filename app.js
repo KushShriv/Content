@@ -10,6 +10,8 @@ const ICONS = {
   pinterest: '<circle cx="12" cy="12" r="9"/><path d="M11 8.5c2.5-1 4.5.5 4 3-.4 2-2 3-3.3 2.3M11.5 10l-2 9"/>',
   facebook: '<path d="M14 8h2.5V4.5H14A3.5 3.5 0 0 0 10.5 8v2.5H8V14h2.5v6.5H14V14h2.3l.7-3.5H14V8.5z"/>',
   threads: '<path d="M17.5 9.5C17 6.5 15 5 12 5c-3.3 0-5.5 2.5-5.5 7s2.2 7 5.5 7c2.8 0 4.5-1.5 4.5-3.5 0-2.2-2-3-4.2-3-1.7 0-2.8.8-2.8 2 0 1 .9 1.7 2.2 1.7 2 0 3.2-1.5 3.2-4.5"/>',
+  discord: '<path d="M7 7c3-1.5 7-1.5 10 0l2 9c-1.5 1.5-3 2-4.5 2l-1-1.5M7 7l-2 9c1.5 1.5 3 2 4.5 2l1-1.5"/><circle cx="9.5" cy="12" r="1" fill="currentColor"/><circle cx="14.5" cy="12" r="1" fill="currentColor"/>',
+  reddit: '<ellipse cx="12" cy="14" rx="7" ry="5"/><circle cx="9.5" cy="13.5" r=".8" fill="currentColor"/><circle cx="14.5" cy="13.5" r=".8" fill="currentColor"/><path d="M10 16.5c1.200.8 2.800.8 4 0M12 9l1-4 4 1"/><circle cx="18" cy="6.5" r="1.300"/>',
   link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'
 };
 const svg = k => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k] || ICONS.link}</svg>`;
