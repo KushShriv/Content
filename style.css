@@ -11,6 +11,3 @@ nav a { display: flex; align-items: center; gap: 14px; padding: 15px 18px; backg
 nav a span { flex: 1; text-align: left; }
 nav a:hover, nav a:focus-visible { transform: translateY(-2px); border-color: #4a4a50; background: #1c1c1f; outline: none; }
 @media (prefers-reduced-motion: reduce) { nav a { transition: none; } nav a:hover { transform: none; } }
-.banner { aspect-ratio: 3 / 1; max-height: 420px; width: 100%; background: linear-gradient(135deg, #1d1d22, #34343c 55%, #1d1d22) center/cover; border-bottom: 1px solid var(--line); }
-main { margin: 0 auto; padding-top: 0; }
-.avatar { margin-top: -48px; border: 4px solid var(--bg); box-sizing: content-box; width: 96px; height: 96px; margin-left: auto; margin-right: auto; }
