@@ -10,6 +10,10 @@ window.PROFILE = {
     { label: "X",         url: "https://x.com/yourhandle",                icon: "x" },
     { label: "LinkedIn",  url: "https://linkedin.com/in/yourhandle",      icon: "linkedin" },
     { label: "GitHub",    url: "https://github.com/yourhandle",           icon: "github" },
+    { label: "Substack",  url: "https://yourhandle.substack.com",         icon: "substack" },
+    { label: "Pinterest", url: "https://pinterest.com/yourhandle",        icon: "pinterest" },
+    { label: "Facebook",  url: "https://facebook.com/yourhandle",         icon: "facebook" },
+    { label: "Threads",   url: "https://threads.net/@yourhandle",         icon: "threads" },
     { label: "Other",     url: "https://example.com",                     icon: "link" }
   ]
 };
