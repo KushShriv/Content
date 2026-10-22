@@ -1,7 +1,7 @@
 :root { --bg:#0b0b0c; --fg:#f2f2f0; --muted:#8d8d92; --card:#161618; --line:#26262a; }
 * { box-sizing: border-box; margin: 0; }
 body { display: block; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; min-height: 100vh; }
-main { width: 100%; max-width: 440px; padding: 64px 16px 48px; text-align: center; }
+main { margin: 0 auto; width: 100%; max-width: 440px; padding: 64px 16px 48px; text-align: center; }
 .avatar { width: 96px; height: 96px; border-radius: 50%; margin: 0 auto 20px; background: var(--card); border: 1px solid var(--line); display: grid; place-items: center; font-size: 28px; font-weight: 600; letter-spacing: .04em; overflow: hidden; }
 .avatar img { width: 100%; height: 100%; object-fit: cover; }
 h1 { font-size: 24px; font-weight: 650; letter-spacing: -.01em; }
